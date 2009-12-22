@@ -24,11 +24,6 @@ package fr.imag.adele.cadse.workspace.as.classreferencer;
 */
 public interface IClassReferencer {
 
-	/**
-	    @generated
-	*/
-	String AS_ID = "AS.Workspace.ClassReferencer";
-
 	
 	public <T> Class<T> loadClass(String defaultContributorName, String qualifiedClassName); 
 }
